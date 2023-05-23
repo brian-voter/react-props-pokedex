@@ -1,16 +1,14 @@
 import './App.css';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 
 /**
- * Renders a Pokedex with several pokemon in it
- * @returns single element Pokedex
+ * Renders a Pokegame with several pokemon in it
+ * @returns single element Pokegame
  */
 function App() {
   return (
     <div>
-      <Pokedex />
-      <Pokedex />
-      <Pokedex />
+      <Pokegame />
     </div>
   );
 }
